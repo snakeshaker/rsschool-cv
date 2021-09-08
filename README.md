@@ -1,1 +1,1 @@
-https://snakeshaker.github.io/rsschool-cv/cv
+https://snakeshaker.github.io/rsschool-cv/
