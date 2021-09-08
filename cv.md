@@ -2,17 +2,17 @@
 
 # Serikbayev Adilbek
 
-# Contacts
+## Contacts
 
 - **Phone:** +7 775 920 2717
 - **E-mail:** [brabus870@gmail.com](brabus870@gmail.com)
 - **GitHub:** [snakeshaker](https://github.com/snakeshaker)
 
-# Summary
+## Summary
 
 A novice front-end developer. I'm always ready to take responsibility and I consider myself as a "team player". Happy to accept critical advice from more experienced people.
 
-# Skills
+## Skills
 
 - HTML
 - CSS (Preprocessor SCSS)
@@ -21,7 +21,7 @@ A novice front-end developer. I'm always ready to take responsibility and I cons
 - PHP (basic knowledge)
 - MySQL(basic knowledge)
 
-# Code example
+## Code example
 
 ```js
 function generateHashtag(str) {
@@ -35,16 +35,16 @@ function generateHashtag(str) {
 }
 ```
 
-# Experience
+## Experience
 
 - Trainee front-end developer
 
-# Education
+## Education
 
 - **Karaganda Technical University (2018-2022)**
   - Bachelor degree in automation and control.
 
-# Languages
+## Languages
 
 - Kazakh (native)
 - Russian (native-level)
