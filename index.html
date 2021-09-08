@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Document</title>
+</head>
+<body>
+   <div class="my-cv">
+		<header class="top-section">
+			<img src="images/respic.jpg" alt="My photo" class="avatar"/>
+			<h1 class="name">SERIKBAYEV <span>ADILBEK</span></h1>
+			<p class="developer">FRONT-END DEVELOPER</p>
+		</header>
+      <main class="main-section">
+         <section>
+            <div class="content-box">	
+            <h2 class="heading">Contacts</h2>
+            <ul class="contacts">
+               <li>
+                  <div class="icon phone"></div>
+                  <a href="tel:+77759202717" class="p">+7 775 920 2717</a>
+               </li>
+               <li>
+                  <div class="icon email"></div>
+                  <a href="mailto:brabus870@gmail.com" class="p">brabus870@gmail.com</a>
+               </li>
+               <li>
+                  <div class="icon github"></div>
+                  <a href="https://github.com/snakeshaker" class="p">https://github.com/snakeshaker</a>
+               </li>
+            </ul>
+            <br/>
+            <h2 class="heading">My skills</h2>
+            <ul class="skills">
+               <li><span class="p">HTML</span></li>
+               <li><span class="p">CSS (Preprocessor SCSS)</span></li>
+               <li><span class="p">JavaScript (ES6+, DOM)</span></li>
+               <li><span class="p">Git basics</span></li>
+               <li><span class="p">PHP (basic knowledge)</span></li>
+               <li><span class="p">MySQL(basic knowledge)</span></li>
+            </ul>
+   
+            <br/>
+
+            <h2 class="heading">Languages</h2>
+            <p class="p">Kazakh (native)</p>
+            <p class="p">Russian (fluent)</p>
+            <p class="p">English (upper-intermediate/advanced)</p>
+            </div>
+         </section>
+         <section>
+            <div class="content-box">
+            <h2 class="heading">Summary</h2>
+            <p class="p">A novice front-end developer. I'm always ready to take responsibility and I consider myself as a "team player". Happy to accept critical advice from more experienced people.</p>
+
+            <br/>
+
+            <h2 class="heading">Code example</h2>
+            <div class="code">
+               <pre>
+                  <code>
+function generateHashtag(str) {
+   if (str.trim().length == 0) return false;
+   let arr = str.split(/\s+/);
+   for (let i = 0; i &lt; arr.length; i++) {
+      arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+   }
+   if (arr[0].length > 139) return false;
+   return `#${arr.join("")}`;
+}
+                  </code>
+              </pre>
+            </div>
+            <h2 class="heading">Experience</h2>
+            <p class="p">Trainee front-end developer (2021 summer)</p>
+            <p class="p">
+            I have been working as a trainee fron-end developer at a local web-studio for 1 month.</p>
+
+            <br/>
+   
+            <h2 class="heading">Education</h2>
+            <p class="big-p" >Karaganda Technical University (2018-2022)</p>
+            <p class="p" >Bachelor degree in automation and control.</p>
+            </div>
+         </section>
+      </main>
+      <footer class="footer">
+         <div class="footer-content">
+            <ul>
+               <li>
+                  <a href="https://rs.school/js/">
+                     <img src="images/rs_school_js.svg" alt="RS School" class="footer-img">
+                  </a>
+               </li>
+               <li>
+                  <a href="https://github.com/snakeshaker">
+                     <img src="images/github.png" alt="GitHub" class="footer-img">
+                  </a>
+               </li>
+            </ul>
+            <div class="author">
+               Serikbayev Adilbek 2021
+            </div>
+         </div>
+      </footer>
+	</div>
+	<br/>
+</body>
+</html>
