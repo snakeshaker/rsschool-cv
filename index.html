@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles/style.css">
+   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+   <title>Serikbayev Adilbek CV</title>
+</head>
+<body>
+   <div class="fixedNavBar">
+      <header>
+         <div class="container_header">
+            <nav class="navigation">
+               <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#skills">Skills</a></li>
+                  <li><a href="#example">Code</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#experience">Experience</a></li>
+                  <li><a href="#education">Education</a></li>
+                  <li><a href="#languages">Languages</a></li>
+               </ul>
+            </nav>
+            <div class="hamburger">
+               <div class="line line1"></div>
+               <div class="line line2"></div>
+               <div class="line line3"></div>
+            </div>
+         </div>
+      </header>
+   </div>
+   <div class="container">
+      <main>
+         <section class="main-banner" id="home">
+            <div class="banner-content">
+               <h2 class="name">SERIKBAYEV <span>ADILBEK</span></h2>
+               <p class="developer">FRONT-END DEVELOPER</p>
+               <div class="logo_socials">
+                  <div class="logo_socials_block">
+                     <ul>
+                        <li><a href="tel:+77759202717"><img class="logo_socials_block_img" src="images/phone.png" alt="phone number"></a>
+                        </li>
+                        <li><a href="mailto:brabus870@gmail.com"><img class="logo_socials_block_img" src="images/gmail.png" alt="gmail"></a>
+                        </li>
+                        <li><a href="https://github.com/snakeshaker"><img class="logo_socials_block_img" src="images/github.png" alt="github link"></a>
+                        </li>
+                     </ul>   
+                  </div>
+               </div>
+            </div>
+            <div class="banner_main_img">
+               <figure>
+                  <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank"><img class="avatar" src="images/respic.jpg" alt="My photo"/></a>
+                  <figcaption>A novice front-end developer. I'm always ready to take responsibility and I consider myself as a "team player". Happy to accept any helpful advice from more experienced people.</figcaption>
+               </figure>
+            </div>
+         </section>
+         <div id="skills"></div>
+         <section class="section" >
+            <div class="section-heading">
+               <h3><a href="#skills">My skills</a></h3>
+               <div class="section-heading-line"></div>
+            </div>
+            <div class="skills">
+               <ul>
+                  <li>HTML</li>
+                  <li>CSS (Preprocessor SCSS)</li>
+                  <li>JavaScript (ES6+,DOM)</li>
+                  <li>Git basics</li>
+                  <li>PHP (basic knowledge)</li>
+                  <li>MySQL (basic knowledge)</li>
+               </ul>
+            </div>
+         </section>
+         <div id="example"></div>
+         <section class="section">
+            <div class="section-heading">
+               <h3><a href="#example">Code example</a></h3>
+               <div class="section-heading-line"></div>
+            </div>
+            <div class="code">
+               <pre>
+                  <code>
+   function generateHashtag(str) {
+      if (str.trim().length == 0) return false;
+      let arr = str.split(/\s+/);
+      for (let i = 0; i &lt; arr.length; i++) {
+         arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+      }
+      if (arr[0].length > 139) return false;
+      return `#${arr.join("")}`;
+   }
+                  </code>
+              </pre>
+            </div>
+         </section>
+         <div id="projects"></div>
+         <section class="section">
+            <div class="section-heading">
+               <h3><a href="#projects">My projects</a></h3>
+               <div class="section-heading-line"></div>
+            </div>
+            <div class="projects">
+               <div class="projects_elem">
+                  <div class="projects_elem_info">
+                     <h4>Simple "dino" game</h4>
+                     <p>Simple game made by me at the very beginning of my front-end career. First time using JS. Used technologies: HTML,CSS,JS</p>
+                  </div>
+                  <div class="projects_elem_img">
+                     <a href="https://snakeshaker.github.io/simple-dino-game/" target="_blank"><img src="images/project1.png" alt="Dino Game"></a>
+                  </div>
+               </div>
+               <div class="projects_elem">
+                  <div class="projects_elem_info">
+                     <h4>Mini piano</h4>
+                     <p>Simple game made by me shortly after the first project. Learned more about event listeners and overall HTML and CSS. Used technologies: HTML,CSS,JS</p>
+                  </div>
+                  <div class="projects_elem_img">
+                     <a href="https://snakeshaker.github.io/mini-pianoJS/" target="_blank"><img src="images/project2.png" alt="Mini Piano"></a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <div id="experience"></div>
+         <section class="section">
+            <div class="section-heading">
+               <h3><a href="#experience">Experience</a></h3>
+               <div class="section-heading-line"></div>
+            </div>
+            <div class="experience">
+               <h4>(2021/06) Trainee front-end developer</h4>
+               <p>I have been working as a trainee front-end developer at a local web-studio for 1 month.
+               </p>
+            </div>
+         </section>
+         <div id="education"></div>
+         <section class="section">
+            <div class="section-heading">
+               <h3><a href="#education">Education</a></h3>
+               <div class="section-heading-line"></div>
+            </div>
+            <div class="education">
+               <h4>Karaganda Technical University (2018-2022)</h4>
+               <p>Bachelor degree in automation and control.</p>
+            </div>
+         </section>
+         <div id="languages"></div>
+         <section class="section">
+            <div class="section-heading">
+               <h3><a href="#languages">Languages</a></h3>
+               <div class="section-heading-line"></div>
+            </div>
+            <div class="languages">
+               <ul>
+                  <li>Kazakh (native)</li>
+                  <li>Russian (fluent)</li>
+                  <li>English (upper-intermediate/advanced)</li>
+               </ul>
+            </div>
+         </section>
+      </main>
+   </div>
+   <footer class="footer">
+      <div class="footer-content">
+         <div class="author">
+            © Serikbayev Adilbek 2021
+         </div>
+         <div class="footer-links">
+            <ul>
+               <li>
+                  <a href="https://rs.school/js/" target="_blank">
+                     <img src="images/rs_school_js.svg" alt="RS School" class="footer-img">
+                  </a>
+               </li>
+               <li>
+                  <a href="https://github.com/snakeshaker" target="_blank">
+                     <img src="images/github.png" alt="GitHub" class="footer-img">
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </footer>
+   <script src="scripts/script.js"></script>
+</body>
+</html>
